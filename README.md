@@ -13,7 +13,7 @@
 
 |   Test Case ID  | Test Case |	Test Steps |	Test Data |	Expected Result |	Pre-condition|	Actual Result|	Status|	Notes|
 | :--------   | :----------- |:--------------|:--------------|:------------|:------------|:----------|:-----------|:---------|
-| 001| Open a browser and go to `http://todomvc.com/examples/react/#/` There should be a place to enter text |||Text area should be only there  |There should not be any created recods in the list |
+| 001| Open a browser and go to `http://todomvc.com/examples/react/#/` There should be a place to enter text |||Text area should be only there with header "todos"  |There should not be any created recods in the list |
 |002| Text field placeholder should be "What needs to be done?  |||   Text area should be there with  "What needs to be done " placeholder | 
 |003|click on the text field and press enter button |||There should not be a change, New recode should not create. |
 |004|User should be able to enter text on the text field||List Item 01|Entered text should be display |
