@@ -1,0 +1,27 @@
+## Installing Java
+* Download Java Software Development Kit https://www.oracle.com/technetwork/java/javase/downloads/index.html 
+* During the Installation process, you have to select the correct JDK file that corresponds to your operating system.
+
+
+## Installing Eclipse IDE
+* Download Eclipse IDE for Java Developer https://www.eclipse.org/downloads/ 
+* Select Eclipse version : Eg :- Eclipse 2019-09
+* Install Eclipse
+
+
+## Installing Selenium Java Client Driver
+* Download the Selenium Java Client Driver https://selenium.dev/ 
+
+## Installing Web Browser
+* Make sure that you have installed relevant web browsers to run the test cases.
+	Eg:- If you plan to run tests on Chrome browser, you have to install it in your test running environment.
+
+## Configuration
+* We have maintain a configuration file to keep master data that use in the tests, So user can easily change the data according the environment that they have to test and run the tests without having any hassle.
+	See src/main/java/Config/config.properties
+
+## Input Data
+* To maintain test data in manageable way, We have used one data file to feed all the test data that we used inside the test cases.
+	See src/main/java/Config/config.properties
+
+
